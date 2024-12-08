@@ -828,14 +828,14 @@ async def stream_logger(
             except Exception:
                 requested_by = user.title
             if position:
-                caption = f"""**✅ Aᴅᴅᴇᴅ Tᴏ Qᴜᴇᴜᴇ Aᴛ :** `#{position}`
+                caption = f"""**✅ Aᴅᴅᴇᴅ Tᴏ Qᴜᴇᴜᴇ Aᴛ :** #{position}
 
 **❒ Tɪᴛʟᴇ:** {title}
 **❒ Dᴜʀᴀᴛɪᴏɴ:** {duration}
 **❒ Sᴛʀᴇᴀᴍ Tʏᴘᴇ:** {stream_type}
 **❒ Cʜᴀᴛ Nᴀᴍᴇ:** {chat_name}
 **❒ Cʜᴀᴛ Lɪɴᴋ:** {chat_link}
-**❒ Rᴇǫᴜɪɴᴇsᴛᴇᴅ Bʏ:** {requested_by}"""
+**❒ Rᴇǫᴜɪᴇsᴛᴇᴅ Bʏ:** {requested_by}"""
             else:
                 caption = f"""**✅ Sᴛᴀʀᴛɪɴɢ Sᴛʀᴇᴀᴍɪɴɢ Oɴ VC.**
 
@@ -844,9 +844,9 @@ async def stream_logger(
 **❒ Sᴛʀᴇᴀᴍ Tʏᴘᴇ:** {stream_type}
 **❒ Cʜᴀᴛ Nᴀᴍᴇ:** {chat_name}
 **❒ Cʜᴀᴛ Lɪɴᴋ:** {chat_link}
-**❒ Rᴇǫᴜɪɴᴇsᴛᴇᴅ Bʏ:** {requested_by}"""
+**❒ Rᴇǫᴜɪᴇsᴛᴇᴅ Bʏ:** {requested_by}"""
             try:
-                await bot.send_photo(LOG_GROUP_ID, photo=thumbnail, text=caption)
+                await bot.send_photo(LOG_GROUP_ID, photo=thumbnail, caption=caption)
             except Exception:
                 pass
 
