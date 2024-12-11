@@ -79,16 +79,39 @@ LOGGER = logging.getLogger("SYSTEM")
 if os.path.exists("Config.env"):
     load_dotenv("Config.env")
 
-API_ID = int(getenv("API_ID", "16457832"))
-API_HASH = getenv("API_HASH", "3030874d0befdb5d05597deacc3e83ab")
-BOT_TOKEN = getenv("BOT_TOKEN", "7921833487:AAGLwwe1xf3I-qjtIgCQSUO861fEgYlYM_8")
-STRING_SESSION = getenv("STRING_SESSION", "BQD7IGgAXdPk-f_fQqDkvebAVZE_lADEe10Ho6X5ri91jYNt8rPwCFS8OY1T1Iy1YvJmIwN_ITNcrwP09pCg7GSw1JaMwFb8Y-47FKs7kLQJP_8b6ZSCO9W3EYQ8fBOWU12xg42nlUTn3o8Cg1ajMDlj-Lr9Al3r7op-XnMh5LFsSglUWn-dHxo8SZHDM6OWlFeJt_BqYkKrZMT9Ev5_-Y7cAtFoQEqNShQUcIl8kUhCDvsp11c-uFQd9WfxcsOpdWhfeaIhggp3LJyBCw88OOZ2jlOkc4tUcTs64LZgiz3Tai4B3cQEkfCDYDXqC_Z96TSutbOkYoCZPuYUZeYC_GMMIuoPNAAAAAHR7uM4AA")
-MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority")
-OWNER_ID = int(getenv("OWNER_ID", "7400383704"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002043570167"))
-START_IMAGE_URL = getenv("START_IMAGE_URL", "https://files.catbox.moe/3o7nd8.mp4")
-REPO_IMAGE_URL = getenv("REPO_IMAGE_URL", "https://files.catbox.moe/nswh7s.jpg")
-STATS_IMAGE_URL = getenv("STATS_IMAGE_URL", "https://files.catbox.moe/2hgoq7.jpg")
+
+# Retrieve environment variables or use default values
+API_ID = os.getenv("API_ID", "16457832")
+API_HASH = os.getenv("API_HASH", "3030874d0befdb5d05597deacc3e83ab")
+BOT_TOKEN = os.getenv("BOT_TOKEN", "7921833487:AAGLwwe1xf3I-qjtIgCQSUO861fEgYlYM_8")
+STRING_SESSION = os.getenv("STRING_SESSION", "BQD7IGgAXdPk-f_fQqDkvebAVZE_lADEe10Ho6X5ri91jYNt8rPwCFS8OY1T1Iy1YvJmIwN_ITNcrwP09pCg7GSw1JaMwFb8Y-47FKs7kLQJP_8b6ZSCO9W3EYQ8fBOWU12xg42nlUTn3o8Cg1ajMDlj-Lr9Al3r7op-XnMh5LFsSglUWn-dHxo8SZHDM6OWlFeJt_BqYkKrZMT9Ev5_-Y7cAtFoQEqNShQUcIl8kUhCDvsp11c-uFQd9WfxcsOpdWhfeaIhggp3LJyBCw88OOZ2jlOkc4tUcTs64LZgiz3Tai4B3cQEkfCDYDXqC_Z96TSutbOkYoCZPuYUZeYC_GMMIuoPNAAAAAHR7uM4AA")
+MONGO_DB_URL = os.getenv("MONGO_DB_URL", "mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority")
+OWNER_ID = os.getenv("OWNER_ID", "7400383704")
+LOG_GROUP_ID = os.getenv("LOG_GROUP_ID", "-1002043570167")
+START_IMAGE_URL = os.getenv("START_IMAGE_URL", "https://files.catbox.moe/3o7nd8.mp4")
+REPO_IMAGE_URL = os.getenv("REPO_IMAGE_URL", "https://files.catbox.moe/nswh7s.jpg")
+STATS_IMAGE_URL = os.getenv("STATS_IMAGE_URL", "https://files.catbox.moe/2hgoq7.jpg")
+
+# Convert API_ID, OWNER_ID, and LOG_GROUP_ID to integers
+try:
+    API_ID = int(API_ID)
+    OWNER_ID = int(OWNER_ID)
+    LOG_GROUP_ID = int(LOG_GROUP_ID)
+except ValueError as e:
+    print(f"Error: One of the IDs could not be converted to an integer. Details: {e}")
+    exit(1)  # Exit the program with an error code
+
+# Print the values to confirm everything is correctly loaded
+print(f"API_ID: {API_ID}")
+print(f"API_HASH: {API_HASH}")
+print(f"BOT_TOKEN: {BOT_TOKEN[:10]}...")  # Just print the first 10 characters for safety
+print(f"STRING_SESSION: {STRING_SESSION[:10]}...")  # Just print the first 10 characters for safety
+print(f"MONGO_DB_URL: {MONGO_DB_URL}")
+print(f"OWNER_ID: {OWNER_ID}")
+print(f"LOG_GROUP_ID: {LOG_GROUP_ID}")
+print(f"START_IMAGE_URL: {START_IMAGE_URL}")
+print(f"REPO_IMAGE_URL: {REPO_IMAGE_URL}")
+print(f"STATS_IMAGE_URL: {STATS_IMAGE_URL}")
 
 
 # Memory Database
