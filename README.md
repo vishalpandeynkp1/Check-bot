@@ -1,81 +1,39 @@
+# 𝗕𝗔𝗕𝗬 x 𝗧𝗨𝗡𝗘
+<h1 align="center"
+ 
+### 🚩🚩 जय बजरंग बली 🚩🚩
+<h1 align="center"
+  
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<img src="https://readme-typing-svg.herokuapp.com?color=FF0085&width=620&lines=🍁+🚩+𝗣𝗢𝗪𝗘𝗥𝗘𝗗+𝗕𝗬+𝗨𝗧𝗧𝗔𝗠+𝗥𝗔𝗧𝗛𝗢𝗥𝗘+𝗞𝗜𝗡𝗚+𝗔𝗥𝗔+🚩+🍁"></b></h3>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+<h1 align="center"><b>❃ 𝐁ᴀʙʏ 𝐗 𝐓ᴜɴᴇ ❃ </b></h1>
+<p align="center"><a href="https://UTTAM470"><img src="https://files.catbox.moe/e7kpw8.jpg" width="400"></a></p>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
+
+
+<h3 align="center">
+    ─「 ᴅᴇᴩʟᴏʏ ᴏɴ ʜᴇʀᴏᴋᴜ 」─
+</h3>
+
+<p align="center"><a href="https://dashboard.heroku.com/new?template=https://github.com/BABY-MUSIC/SPOTIFY_MUSIC"> <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-green?style=for-the-badge&logo=heroku" width="220" height="38.45"/></a></p>
+
+
+![Readme Card](https://github-readme-stats.vercel.app/api/pin/?username=BABY-MUSIC&repo=YTMUSIC&theme=flag-india)
+
+
+
+<h3 align="center">
+    ─「 sᴜᴩᴩᴏʀᴛ 」─
+</h3>
+
 <p align="center">
-<a href="https://github.com/AdityaHalder/Aditya-Player"><img src="https://graph.org/file/918101d0ad6b1207e6201.png" height="270" width="480" alt="Genius-Userbot"/></a>
+<a href="https://t.me/chating_hub09"><img src="https://img.shields.io/badge/-Support%20Group-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
 <p align="center">
-<b>Aditya-Player</b><br/>
-Aditya-Player is an advanced & powerful multi-featured Telegram vc streaming bot.
+<a href="(https://t.me/https://t.me/+Q25anL0Ckuk5NzM1"><img src="https://img.shields.io/badge/-Support%20Channel-blue.svg?style=for-the-badge&logo=Telegram"></a>
 </p>
 
-<h2>🤖 Aditya-Player Info</h2>
-<p title="Aditya-Player">Aditya-Player is an open-source Telegram multi-featured vc streaming bot developed by using the Python programming language and Pyrogram MTProto client library of the Telegram API and PyTgCalls library, a secure and reliable way to interact with the Telegram platform.</p>
 
-<h2>♨️ Host AdityaPlayer On VPS Server</h2>
-
-
-**1. At First Copy & Paste Below Command.**
-
-```apt update -y && apt install sudo -y && sudo apt install curl ffmpeg git nano python3-pip screen -y && cd && rm -rf AdityaPlayer && git clone https://github.com/AdityaHalder/AdityaPlayer && cd AdityaPlayer && pip3 install -r requirements.txt --force-reinstall && screen -R AdityaPlayer```
-
-
-**2. Now Run This Command & Add Your Variables.**
-
-```nano Config.env```
-
-
-**Required Variables !**
-
-`API_ID`
-
-`API_HASH`
-
-`BOT_TOKEN`
-
-`STRING_SESSION`
-
-`MONGO_DB_URL`
-
-`OWNER_ID`
-
-`LOG_GROUP_ID`
-
-`START_IMAGE_URL`
-
-
-**3. After That Save and Exit By Below Buttons.**
-
-```ctrl + s```
-
-```ctrl + x```
-
-
-**4. Now Run Your Bot in Background.**
-
-```python3 -m AdityaHalder```
-
-
-**5. Now Exit From Screen & Close Your Vps & Enjoy**
-
-```ctrl + a + d```
-
-
-> [!IMPORTANT]
-> If you use Aditya-Player, it is important that you have proper knowledge about it. You should follow the [**`Documentation`**](https://t.me/adityaserver) to learn about Aditya-Player.
-
-<h2>🤝 Contributing</h2>
-<p title="Contributing">As Aditya-Player is an open-source project, all kinds of contributions are respectfully welcomed, and I also extend my sincere thanks to all contributors.</p>
-
-<h2>🌐 Updates & Support</h2>
-<p title="Support">You can join Aditya-Player's official Telegram channel and group on Telegram for any updates and support-related issues of Aditya-Player.</p>
-
-- Telegram Updates: [**`@AdityaServer`**](https://t.me/adityaserver)
-
-- Telegram Support: [**`@AdityaDiscus`**](https://t.me/adityadiscus)
-> [!WARNING]  
-> Verify the username of Aditya-Player's official Telegram channel and group. If you face a problem with a fake channel or group, Aditya-Player will not take responsibility for it, so I request that you verify Aditya-Player's official Telegram channel and group.
-
-
-<h2>📑 Acknowledgement / Credits</h2>
-
-- [**`Pyrogram:`**](https://github.com/pyrogram) All functions of Aditya-Player based on this mtproto client library.
-- [**`Py-TgCalls:`**](https://github.com/py-tgcalls) Telegram Streaming system of Aditya-Player based on this library.
+- <b> sᴩᴇᴄɪᴀʟ ᴛʜᴀɴᴋs ᴛᴏ [BABY-MUSIC™](https://github.com/BABY-MUSIC) ғᴏʀ [BABY-MUSIC™](https://github.com/BABY-MUSIC/BABYTUNE) </b>
