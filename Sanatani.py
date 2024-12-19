@@ -225,7 +225,7 @@ async def main():
     LOGGER.info("✅ PyTgCalls Started.")
     await asyncio.sleep(1)
     LOGGER.info("✅ Sucessfully Hosted Your Bot !!")
-    LOGGER.info("✅ Now Do Visit: @AdityaServer !!")
+    LOGGER.info("✅ Now Do Visit: @BABY09_WORLD !!")
     await idle()
 
 
