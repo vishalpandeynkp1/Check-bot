@@ -7,18 +7,12 @@
 </p>
 
 <p align="center">
-<a href="https://github.com/BABY-MUSIC/JAZZY"><img src="https://img.shields.io/github/stars/BABY-MUSIC/JAZZY?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
-<a href="https://github.com/BABY-MUSIC/JAZZY/network/members"> <img src="https://img.shields.io/github/forks/BABY-MUSIC/JAZZY?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
-<a href="https://github.com/BABY-MUSIC/JAZZY/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
+<a href="https://github.com/BABY-MUSIC/SANATANI_MxPLAYER"><img src="https://img.shields.io/github/stars/BABY-MUSIC/SANATANI_MxPLAYER?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
+<a href="https://github.com/BABY-MUSIC/SANATANI_MxPLAYER/network/members"> <img src="https://img.shields.io/github/forks/BABY-MUSIC/SANATANI_MxPLAYER?color=black&logo=github&logoColor=black&style=for-the-badge" /></a>
+<a href="https://github.com/BABY-MUSIC/SANATANI_MxPLAYER/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://github.com/BABY-MUSIC/JAZZY/commits/BABY-MUSIC"> <img src="https://img.shields.io/github/last-commit/BABY-MUSIC/JAZZY?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
+<a href="https://github.com/BABY-MUSIC/SANATANI_MxPLAYER/commits/BABY-MUSIC"> <img src="https://img.shields.io/github/last-commit/BABY-MUSIC/SANATANI_MxPLAYER?color=blue&logo=github&logoColor=green&style=for-the-badge" /></a>
 </p>
-
-<p align="center">
-  <img src="">
-</p>
-
-[![Deploy to Koyeb](https://www.koyeb.com/static/images/deploy/button.svg)](https://app.koyeb.com/deploy?name=spotify-music&type=git&repository=BABY-MUSIC%2FSPOTIFY_MUSIC&branch=main&builder=dockerfile)
 
 
 ## 🚀 Deploy on Heroku 
