@@ -1,5 +1,5 @@
 <h2 align="center">
-    ──「 sᴘᴏᴛɪғʏ ダ ᴍᴜsɪᴄ 」──
+    ──「 【◖ Sαηαтαηι ◗ 】 🚩 」──
 </h2>
 
 <p align="center">
