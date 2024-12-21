@@ -77,7 +77,7 @@
 
 ### 🛠 Commands & Usage
 
-The Aviax Music Bot offers a range of commands to enhance your music listening experience on Telegram:
+The Sanatani Music Bot offers a range of commands to enhance your music listening experience on Telegram:
 
 | Command                 | Description                                 |
 |-------------------------|---------------------------------------------|
@@ -88,7 +88,7 @@ The Aviax Music Bot offers a range of commands to enhance your music listening e
 | `/stop`                 | Stop the bot and clear the queue.           |
 | `/queue`                | Display the list of songs in the queue.     |
 
-For a full list of commands, use `/help` in [telegram](https://t.me/BABY09_WORLD).
+For a full list of commands, use `/help` in [telegram](https://t.me/SANATANI_X_BOT).
 
 ---
 ━━━━━━━━━━━━━━━━━━━━
