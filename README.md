@@ -16,7 +16,7 @@
 
 
 ## 🚀 Deploy on Heroku 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/BABY-MUSIC/SPOTIFY_MUSIC)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/BABY-MUSIC/SANATANI_MxPLAYER)
 
 ---
 
@@ -24,50 +24,55 @@
 
 1. **Upgrade & Update:**
    ```bash
-   sudo apt-get update && sudo apt-get upgrade -y
+   apt update -y && apt install sudo -y
    ```
 
 2. **Install Required Packages:**
    ```bash
-   sudo apt-get install python3-pip ffmpeg -y
+   sudo apt install curl ffmpeg git nano python3-pip screen -y
    ```
 3. **Setting up PIP**
    ```bash
-   sudo pip3 install -U pip
-   ```
-4. **Installing Node**
-   ```bash
-   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash && source ~/.bashrc && nvm install v18
+   cd && rm -rf AdityaPlayer
    ```
 5. **Clone the Repository**
    ```bash
-   git clone https://github.com/BABY-MUSIC/SPOTIFY_MUSIC && cd SPOTIFY_MUSIC
+   git clone https://github.com/BABY-MUSIC/SANATANI_MxPLAYER && cd SANATANI_MxPLAYER
    ```
 6. **Install Requirements**
    ```bash
-   pip3 install -U -r requirements.txt
+   pip3 install -r requirements.txt --force-reinstall
    ```
-7. **Create .env  with sample.env**
+7. **Create .env  with Config.env**
    ```bash
-   cp sample.env .env
+   nano Config.env
    ```
    - Edit .env with your vars
-8. **Editing Vars:**
-   ```bash
-   vi .env
+8. **Add variable Vars:**
+   ```Need environment
+   API_ID
+
+   API_HASH
+
+   BOT_TOKEN
+
+   STRING_SESSION
+
+   MONGO_DB_URL
+
+   OWNER_ID
+
+   LOG_GROUP_ID
+
+   START_IMAGE_URL
    ```
-   - Edit .env with your values.
-   - Press `I` button on keyboard to start editing.
-   - Press `Ctrl + C`  once you are done with editing vars and type `:wq` to save .env or `:qa` to exit editing.
-9. **Installing tmux**
-    ```bash
-    sudo apt install tmux -y && tmux
-    ```
+   - After That Save and Exit By Below Buttons..
+   - Press `ctrl + s` button on keyboard to save.
+   - Press `ctrl + x`  after save and Exit.
 10. **Run the Bot**
     ```bash
-    bash start
+    python3 -m Sanatani
     ```
-
 ---
 
 ### 🛠 Commands & Usage
