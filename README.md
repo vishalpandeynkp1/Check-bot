@@ -3,8 +3,9 @@
 </h2>
 
 <p align="center">
-  <img src="https://files.catbox.moe/e7kpw8.jpg">
+  <img src="https://files.catbox.moe/uf7jpy.mp4" alt="Animated GIF">
 </p>
+
 
 <p align="center">
 <a href="https://github.com/BABY-MUSIC/SANATANI_MxPLAYER"><img src="https://img.shields.io/github/stars/BABY-MUSIC/SANATANI_MxPLAYER?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
