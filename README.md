@@ -33,7 +33,7 @@
    ```
 3. **Setting up PIP**
    ```bash
-   cd && rm -rf AdityaPlayer
+   cd && rm -rf SANATANI_MxPLAYER
    ```
 5. **Clone the Repository**
    ```bash
