@@ -3,8 +3,9 @@
 </h2>
 
 <p align="center">
-  <img src="https://files.catbox.moe/uf7jpy.mp4" alt="Animated GIF">
+  <img src="https://files.catbox.moe/041hoq.gif" alt="Animated GIF">
 </p>
+
 
 
 <p align="center">
