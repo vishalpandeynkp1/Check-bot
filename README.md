@@ -3,7 +3,7 @@
 </h2>
 
 <p align="center">
-  <img src="https://files.catbox.moe/041hoq.gif" alt="Animated GIF">
+  <img src="https://files.catbox.moe/041hoq.gif"
 </p>
 
 
