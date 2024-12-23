@@ -80,16 +80,16 @@ if os.path.exists("Config.env"):
     load_dotenv("Config.env")
 
 
-API_ID = int(getenv("API_ID", "0"))
-API_HASH = getenv("API_HASH", "0")
-BOT_TOKEN = getenv("BOT_TOKEN", "")
-STRING_SESSION = getenv("STRING_SESSION", "")
-MONGO_DB_URL = getenv("MONGO_DB_URL", "")
-OWNER_ID = int(getenv("OWNER_ID", "7400383704"))
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002043570167"))
-START_IMAGE_URL = getenv("START_IMAGE_URL", "https://files.catbox.moe/3o7nd8.mp4")
-REPO_IMAGE_URL = getenv("REPO_IMAGE_URL", "https://files.catbox.moe/nswh7s.jpg")
-STATS_IMAGE_URL = getenv("STATS_IMAGE_URL", "https://files.catbox.moe/2hgoq7.jpg")
+API_ID = int(getenv("API_ID", "29730155"))
+API_HASH = getenv("API_HASH", "fdcdb5f52cdd4571ba9210faea0a3852")
+BOT_TOKEN = getenv("BOT_TOKEN", "7233484727:AAERAtDF3BqEeg_jKGlGaQTFij1bIyAr5Cw")
+STRING_SESSION = getenv("STRING_SESSION", "BQHFpWsARJby1RjQXFwaXCzGEA21_YAZirYsi6vVpsyCr3qjXietDtTFSht2QmLLcB3_aE4qOWn531a_dEHHwrQr0NRCUvtP-1VT1fy4d1VVDQYVofXldMD-t7-VMJCuwX_Ptqurdx830kscbd0BscTnB3aufdIAn7hSherGvohlonyHoc0F49V_C40wk3jE7iRfgPbSBU2OOoxIAF-mtdlrNd0rNvS6NL42_DMHRqDrdOSAJHL_FCV5CJgDQRFXQKSsi7mVAwbdlcbBwNbUQmqreQ6hD4V4_U5rHixvGJ8anDvxq_alJmuacUDQN7YF1gRAavgm6yWWt0b1r0UgxZRHHv6r_wAAAAGjgLrvAA")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Villainmusic01:deathnote0p@cluster0.nah8e.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+OWNER_ID = int(getenv("OWNER_ID", "5909658683"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002167912575"))
+START_IMAGE_URL = getenv("START_IMAGE_URL", "https://files.catbox.moe/fcawaj.jpg")
+REPO_IMAGE_URL = getenv("REPO_IMAGE_URL", "https://files.catbox.moe/fcawaj.jpg")
+STATS_IMAGE_URL = getenv("STATS_IMAGE_URL", "https://files.catbox.moe/fcawaj.jpg")
 
 
 # Memory Database
@@ -146,7 +146,7 @@ __start_time__ = time.time()
 
 
 # start and run
-HEALTHY = "mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority" #DONT CHANGE THIS LATEST PYTGCALLS
+HEALTHY = "mongodb+srv://Villainmusic01:deathnote0p@cluster0.nah8e.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" #DONT CHANGE THIS LATEST PYTGCALLS
 mongo_client = AsyncIOMotorClient(HEALTHY)
 db = mongo_client["python_xyz"]  # Replace with your DB name
 bot_collection = db["bot_data"]  # Collection to store bot info
@@ -377,7 +377,7 @@ ABUTTON = InlineKeyboardMarkup(
 HELP_C = """```
 ⌬ ๏ ʟᴇᴛ's ɪɴᴛʀᴏᴅᴜᴄᴇ ᴍᴜsɪᴄ ʙᴏᴛ```
 
-**⌬ [【◖ ˹ᴏᴅꜱ ꭙ ᴍᴜꜱɪᴄ˼ ♪ ◗ 】 🚩](https://t.me/iamvillain77) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
+**⌬ [【◖ ˹ᴏᴅꜱ ꭙ ᴍᴜꜱɪᴄ˼ ♪ ◗ 】 ](https://t.me/iamvillain77) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
 ```\n⌬ ʙᴇsᴛ ғᴇᴀsɪʙɪʟɪᴛʏ ᴏɴ ᴛᴏᴘ  ?```
 
 **␥ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ
@@ -392,7 +392,7 @@ HELP_C = """```
 
 ᴀʟʟ ᴛʜᴇ ғᴇᴀᴛᴜʀᴇs ᴀʀᴇ ᴡᴏʀᴋɪɴɢ ғɪɴᴇ
 
-⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/iamvillain77)**"""
+⌬ ᴍᴏʀᴇ ɪɴғᴏ. [˹ᴠɪʟʟᴀɪɴ ꭙ ꜱᴜᴘᴘᴏʀᴛ˼](https://t.me/iamvillain77)**"""
 
 HELP_X = """```
     【◖ ˹ᴏᴅꜱ ꭙ ᴍᴜꜱɪᴄ˼ ♪ ◗ 】  ᴍᴇɴᴜ```
@@ -409,7 +409,7 @@ HELP_X = """```
 
 ␥ /end - Cʟᴇᴀʀ , ᴇɴᴅ ᴀʟʟ sᴏɴɢ [ᴀᴜɪᴅᴏ & ᴠɪᴅᴇᴏ]
 
-V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/iamvillain77)"""
+V ɪ s ɪ ᴛ - [˹ᴠɪʟʟᴀɪɴ ꭙ ꜱᴜᴘᴘᴏʀᴛ˼](https://t.me/iamvillain77)"""
 
 # Callback query handler
 @bot.on_callback_query(filters.regex("UTTAM_RATHORE"))
@@ -449,7 +449,7 @@ async def start_message_private(client, message):
             await asyncio.sleep(0.005)  # Adjust speed of progress here
 
         # After progress bar reaches 100%, send final message and delete it
-        await baby.edit_text("**❖ Jᴀʏ sʜʀᴇᴇ ʀᴀᴍ  🚩...**")
+        await baby.edit_text("**❖ Bᴏᴛ Sᴛᴀʀᴛᴇᴅ Bᴀʙʏ...**")
         await asyncio.sleep(1)  # Wait for 2 seconds before deletion
         await baby.delete()
 
@@ -535,7 +535,7 @@ async def back_to_home_menu(client, query):
     mention = query.from_user.mention
     caption = f"""╭───────────────────▣
 │**❍ ʜᴇʏ {mention} •**
-│**❍ ɪ ᴀᴍ 【◖ ˹ᴏᴅꜱ ꭙ ᴍᴜꜱɪᴄ˼ ♪ ◗ 】 🚩 •**
+│**❍ ɪ ᴀᴍ 【◖ ˹ᴏᴅꜱ ꭙ ᴍᴜꜱɪᴄ˼ ♪ ◗ 】 •**
 ├───────────────────▣**
 │**❍ ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ғᴇᴀᴛᴜʀᴇs •**
 │**❍ ᴍᴀᴅᴇ ʙʏ...[ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈](https://t.me/iamakki001) •**
@@ -922,7 +922,7 @@ async def change_stream(chat_id):
 
     await call.play(chat_id, stream_media, config=call_config)
     await add_active_media_chat(chat_id, stream_type)
-    caption = f"""```\n🔊<b>【◖ ˹ᴏᴅꜱ ꭙ ᴍᴜꜱɪᴄ˼ ♪ ◗ 】🚩•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈˼```"""
+    caption = f"""```\n🔊<b>【◖ ˹ᴏᴅꜱ ꭙ ᴍᴜꜱɪᴄ˼ ♪ ◗ 】•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈˼```"""
     buttons = InlineKeyboardMarkup(
     inline_keyboard=[
         [
@@ -986,20 +986,20 @@ async def stream_audio_or_video(client, message):
     audio = (replied.audio or replied.voice) if replied else None
     video = (replied.video or replied.document) if replied else None
     stickers = [
-        "🌹",
-        "🌺",
-        "🎉",
+        "🦋",
+        "🦋",
+        "🎶",
         "🎃",
         "💥",
         "🦋",
         "🕊️",
-        "❤️",
-        "💖",
-        "💝",
+        "🔥",
+        "🦋",
+        "🦋",
         "💗",
-        "💓",
-        "💘",
-        "💞",
+        "🦋",
+        "🦋",
+        "🦋",
     ]
     aux = await message.reply_text(random.choice(stickers))
     if audio:
@@ -1244,7 +1244,7 @@ async def stream_audio_or_video(client, message):
                 position = await add_to_queue(
                     chat_id, user, title, duration, stream_file, stream_type, thumbnail
                 )
-                caption = f"""```\n🔊<b>【◖ ˹ᴏᴅꜱ ꭙ ᴍᴜꜱɪᴄ˼ ♪ ◗ 】🚩•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈˼```"""
+                caption = f"""```\n🔊<b>【◖ ˹ᴏᴅꜱ ꭙ ᴍᴜꜱɪᴄ˼ ♪ ◗ 】•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈˼```"""
                 await bot.send_photo(chat_id, thumbnail, caption, reply_markup=buttons)
                 await stream_logger(
                     chat_id, user, title, duration, stream_type, thumbnail
