@@ -352,11 +352,11 @@ async def add_served_user(user_id: int):
 CBUTTON = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl")
+            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/oldskoolgc")
         ],
         [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/BABY09_WORLD"),
-            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/+tHAENx_r_mtlODZl")
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/iamvillain77"),
+            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/iamvillain77/23")
         ],
         [
             InlineKeyboardButton("↺ ʙᴧᴄᴋ ↻", callback_data="back_to_home")
@@ -377,7 +377,7 @@ ABUTTON = InlineKeyboardMarkup(
 HELP_C = """```
 ⌬ ๏ ʟᴇᴛ's ɪɴᴛʀᴏᴅᴜᴄᴇ ᴍᴜsɪᴄ ʙᴏᴛ```
 
-**⌬ [【◖ Sαηαтαηι ◗ 】 🚩](https://t.me/BABY09_WORLD) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
+**⌬ [【◖ ˹ᴏᴅꜱ ꭙ ᴍᴜꜱɪᴄ˼ ♪ ◗ 】 🚩](https://t.me/iamvillain77) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
 ```\n⌬ ʙᴇsᴛ ғᴇᴀsɪʙɪʟɪᴛʏ ᴏɴ ᴛᴏᴘ  ?```
 
 **␥ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ
@@ -392,10 +392,10 @@ HELP_C = """```
 
 ᴀʟʟ ᴛʜᴇ ғᴇᴀᴛᴜʀᴇs ᴀʀᴇ ᴡᴏʀᴋɪɴɢ ғɪɴᴇ
 
-⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/BABY09_WORLD)**"""
+⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/iamvillain77)**"""
 
 HELP_X = """```
-    【◖ Sαηαтαηι ◗ 】 🚩 ᴍᴇɴᴜ```
+    【◖ ˹ᴏᴅꜱ ꭙ ᴍᴜꜱɪᴄ˼ ♪ ◗ 】  ᴍᴇɴᴜ```
 **ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /**
 ␥ /play - Pʟᴀʏ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ sᴏɴɢ [ᴀᴜɪᴅᴏ].
 
@@ -409,7 +409,7 @@ HELP_X = """```
 
 ␥ /end - Cʟᴇᴀʀ , ᴇɴᴅ ᴀʟʟ sᴏɴɢ [ᴀᴜɪᴅᴏ & ᴠɪᴅᴇᴏ]
 
-V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/BABY09_WORLD)"""
+V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/iamvillain77)"""
 
 # Callback query handler
 @bot.on_callback_query(filters.regex("UTTAM_RATHORE"))
@@ -455,10 +455,10 @@ async def start_message_private(client, message):
 
         caption = f"""╭───────────────────▣
 │**❍ ʜᴇʏ {mention} •**
-│**❍ ɪ ᴀᴍ 【◖ Sαηαтαηι ◗ 】 🚩 •**
+│**❍ ɪ ᴀᴍ 【◖ ˹ᴏᴅꜱ ꭙ ᴍᴜꜱɪᴄ˼ ♪ ◗ 】 •**
 ├───────────────────▣**
 │**❍ ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ғᴇᴀᴛᴜʀᴇs •**
-│**❍ ᴍᴀᴅᴇ ʙʏ...[˹ ʙᴀʙʏ-ᴍᴜsɪᴄ ™˼𓅂](https://t.me/BABY09_WORLD) •**
+│**❍ ᴍᴀᴅᴇ ʙʏ...[ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈](https://t.me/iamakki001) •**
 ╰───────────────────▣"""
 
         buttons = InlineKeyboardMarkup(
@@ -486,7 +486,7 @@ async def start_message_private(client, message):
                     ),
                     InlineKeyboardButton(
                         text="˹ ʀᴇᴘᴏ ˼",
-                        url="https://github.com/BABY-MUSIC/SANATANI_MxPLAYER",  # Callback data for Owner button
+                        url="https://t.me/iamvillain77/23",  # Callback data for Owner button
                     ),
                 ]
             ]
@@ -535,10 +535,10 @@ async def back_to_home_menu(client, query):
     mention = query.from_user.mention
     caption = f"""╭───────────────────▣
 │**❍ ʜᴇʏ {mention} •**
-│**❍ ɪ ᴀᴍ 【◖ Sαηαтαηι ◗ 】 🚩 •**
+│**❍ ɪ ᴀᴍ 【◖ ˹ᴏᴅꜱ ꭙ ᴍᴜꜱɪᴄ˼ ♪ ◗ 】 🚩 •**
 ├───────────────────▣**
 │**❍ ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ғᴇᴀᴛᴜʀᴇs •**
-│**❍ ᴍᴀᴅᴇ ʙʏ...[˹ ʙᴀʙʏ-ᴍᴜsɪᴄ ™˼𓅂](https://t.me/BABY09_WORLD) •**
+│**❍ ᴍᴀᴅᴇ ʙʏ...[ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈](https://t.me/iamakki001) •**
 ╰───────────────────▣"""
 
     buttons = InlineKeyboardMarkup(
@@ -566,7 +566,7 @@ async def back_to_home_menu(client, query):
                 ),
                 InlineKeyboardButton(
                     text="˹ ʀᴇᴘᴏ ˼",
-                    url="https://github.com/BABY-MUSIC/SPOTIFY_MUSIC",  # Callback data for Owner button
+                    url="https://t.me/iamvillain77/23",  # Callback data for Owner button
                 ),
             ]
         ]
@@ -922,15 +922,15 @@ async def change_stream(chat_id):
 
     await call.play(chat_id, stream_media, config=call_config)
     await add_active_media_chat(chat_id, stream_type)
-    caption = f"""```\n🔊<b>【◖ Sαηαтαηι ◗ 】🚩•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ʙᴀʙʏ-ᴍᴜsɪᴄ™˼```"""
+    caption = f"""```\n🔊<b>【◖ ˹ᴏᴅꜱ ꭙ ᴍᴜꜱɪᴄ˼ ♪ ◗ 】🚩•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈˼```"""
     buttons = InlineKeyboardMarkup(
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/BABY09_WORLD"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/iamvillain77"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/oldskoolgc"
             )
         ],
         [
@@ -1028,10 +1028,10 @@ async def stream_audio_or_video(client, message):
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/BABY09_WORLD"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/iamvillain77"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/oldskoolgc"
             )
         ],
         [
@@ -1107,10 +1107,10 @@ async def stream_audio_or_video(client, message):
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/BABY09_WORLD"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/iamvillain77"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/oldskoolgc"
             )
         ],
         [
@@ -1244,7 +1244,7 @@ async def stream_audio_or_video(client, message):
                 position = await add_to_queue(
                     chat_id, user, title, duration, stream_file, stream_type, thumbnail
                 )
-                caption = f"""```\n🔊<b>【◖ Sαηαтαηι ◗ 】🚩•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ʙᴀʙʏ-ᴍᴜsɪᴄ™˼```"""
+                caption = f"""```\n🔊<b>【◖ ˹ᴏᴅꜱ ꭙ ᴍᴜꜱɪᴄ˼ ♪ ◗ 】🚩•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ꪜ 𝛊 ɭ ɭ ᧘ 𝛊 𝛈˼```"""
                 await bot.send_photo(chat_id, thumbnail, caption, reply_markup=buttons)
                 await stream_logger(
                     chat_id, user, title, duration, stream_type, thumbnail
@@ -1434,11 +1434,11 @@ async def git_repo_link(client, message):
         [
             InlineKeyboardButton(
                 text="˹ sᴜᴘᴘᴏꝛᴛ ˼",
-                url="https://t.me/+OL6jdTL7JAJjYzVl"
+                url="https://t.me/oldskoolgc"
             ),
             InlineKeyboardButton(
                 text="˹ sᴏᴜꝛᴄᴇ ˼",
-                url="https://github.com/BABY-MUSIC/SANATANI_MxPLAYER"
+                url="https://t.me/iamvillain77/23"
             ),
         ],
         [
