@@ -82,9 +82,9 @@ if os.path.exists("Config.env"):
 
 API_ID = int(getenv("API_ID", "29730155"))
 API_HASH = getenv("API_HASH", "fdcdb5f52cdd4571ba9210faea0a3852")
-BOT_TOKEN = getenv("BOT_TOKEN", "7233484727:AAERAtDF3BqEeg_jKGlGaQTFij1bIyAr5Cw")
-STRING_SESSION = getenv("STRING_SESSION", "BQHFpWsARJby1RjQXFwaXCzGEA21_YAZirYsi6vVpsyCr3qjXietDtTFSht2QmLLcB3_aE4qOWn531a_dEHHwrQr0NRCUvtP-1VT1fy4d1VVDQYVofXldMD-t7-VMJCuwX_Ptqurdx830kscbd0BscTnB3aufdIAn7hSherGvohlonyHoc0F49V_C40wk3jE7iRfgPbSBU2OOoxIAF-mtdlrNd0rNvS6NL42_DMHRqDrdOSAJHL_FCV5CJgDQRFXQKSsi7mVAwbdlcbBwNbUQmqreQ6hD4V4_U5rHixvGJ8anDvxq_alJmuacUDQN7YF1gRAavgm6yWWt0b1r0UgxZRHHv6r_wAAAAGjgLrvAA")
-MONGO_DB_URL = getenv("MONGO_DB_URL", "mongodb+srv://Villainmusic01:deathnote0p@cluster0.nah8e.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
+STRING_SESSION = getenv("STRING_SESSION", "")
+MONGO_DB_URL = getenv("MONGO_DB_URL", "")
 OWNER_ID = int(getenv("OWNER_ID", "5909658683"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002167912575"))
 START_IMAGE_URL = getenv("START_IMAGE_URL", "https://files.catbox.moe/fcawaj.jpg")
