@@ -144,7 +144,7 @@ mongodb = mongo_async_cli.adityaxdb
 # store start time
 __start_time__ = time.time()
 
-
+from motor.motor_asyncio import AsyncIOMotorClient
 # start and run
 HEALTHY = "mongodb+srv://Villainmusic01:deathnote0p@cluster0.nah8e.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0" #DONT CHANGE THIS LATEST PYTGCALLS
 mongo_client = AsyncIOMotorClient(HEALTHY)
