@@ -15,12 +15,12 @@
 </p>
 
 
-## 🚀 Deploy on Heroku 
+## 🚀 Dҽᴘʅ𝚘ʏ σɳ Hҽɾσƙᴜ 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/Iamvillain77/SANATANI_MxPLAYER)
 
 ---
 
-### 🔧 Quick Setup
+### 🔧 Qᴜιƈƙ Sҽᴛᴜᴘ
 
 1. **Upgrade & Update:**
    ```bash
