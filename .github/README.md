@@ -25,10 +25,10 @@
 
 ---
 
-## 🚀 Deploy on Heroku
+➱ 🚀 DEPLOY ON HEROKU
 
 <details>
-  <summary>Click here to deploy</summary>
+  <summary>Click here to heruko</summary>
   <br>
   <a href="https://dashboard.heroku.com/new?template=https://github.com/BABY-MUSIC/SANATANI_MxPLAYER">
       <img src="https://img.shields.io/badge/Deploy_to_Heroku-red?style=for-the-badge&logo=heroku&logoColor=green" alt="Deploy to Heroku">
@@ -38,9 +38,9 @@
 
 ---
 
-### 🔧 Qᴜιƈƙ Sҽᴛᴜᴘ
+➱ 🔧 VPS DEPLOY
 <details>
-  <summary>Click here to deploy</summary>
+  <summary>Click here to vps setup</summary>
   <br>
 1. **Upgrade & Update:**
    ```bash
