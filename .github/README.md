@@ -2,7 +2,7 @@
     ──「 【◖ Sαηαтαηι ◗ 】 🚩 」──
 </h2>
 <div align="center">
-    <img src="./.github/5_6282955989138282332-ezgif.com-optimize.gif" alt="Sanatani GIF" />
+    <img src="./5_6282955989138282332-ezgif.com-optimize.gif" alt="Sanatani GIF" />
 </div>
 
 <p align="center">
