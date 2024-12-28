@@ -1,8 +1,9 @@
 <h2 align="center">
     ──「 【◖ Sαηαтαηι ◗ 】 🚩 」──
 </h2>
-
-<h1 align="center"><img src="./.github/5_6282955989138282332-ezgif.com-optimize.gif" /></h1>
+<div align="center">
+    <img src="./.github/5_6282955989138282332-ezgif.com-optimize.gif" alt="Sanatani GIF" />
+</div>
 
 <p align="center">
 <a href="https://github.com/BABY-MUSIC/SANATANI_MxPLAYER"><img src="https://img.shields.io/github/stars/BABY-MUSIC/SANATANI_MxPLAYER?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
