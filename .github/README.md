@@ -28,8 +28,9 @@
 ## 🚀 Deploy on Heroku
 
 <a href="https://dashboard.heroku.com/new?template=https://github.com/BABY-MUSIC/SANATANI_MxPLAYER">
-    <img src="https://img.shields.io/badge/Deploy_to_Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white" alt="Deploy to Heroku">
+    <img src="https://img.shields.io/badge/Deploy%20to%20Heroku-purple?style=flat-square&logo=heroku&logoColor=white" alt="Deploy to Heroku">
 </a>
+
 
 
 ---
