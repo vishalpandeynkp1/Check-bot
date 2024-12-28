@@ -25,6 +25,12 @@
 
 ---
 
+## 🚀 Deploy on Heroku
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://dashboard.heroku.com/new?template=https://github.com/BABY-MUSIC/SANATANI_MxPLAYER)
+
+---
+
 ### 🔧 Qᴜιƈƙ Sҽᴛᴜᴘ
 
 1. **Upgrade & Update:**
