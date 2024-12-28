@@ -2,7 +2,7 @@
     ──「 【◖ Sαηαтαηι ◗ 】 🚩 」──
 </h2>
 
-<h1 align="center"><img src="./.github/yae-miko.gif" /></h1>
+<h1 align="center"><img src="./.github/5_6282955989138282332-ezgif.com-optimize.gif" /></h1>
 
 <p align="center">
 <a href="https://github.com/BABY-MUSIC/SANATANI_MxPLAYER"><img src="https://img.shields.io/github/stars/BABY-MUSIC/SANATANI_MxPLAYER?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" /></a>
