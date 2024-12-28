@@ -39,7 +39,9 @@
 ---
 
 ### 🔧 Qᴜιƈƙ Sҽᴛᴜᴘ
-
+<details>
+  <summary>Click here to deploy</summary>
+  <br>
 1. **Upgrade & Update:**
    ```bash
    apt update -y && apt install sudo -y
@@ -91,6 +93,7 @@
     ```bash
     python3 -m Sanatani
     ```
+    </details>
 ---
 
 ### 🛠 Commands & Usage
