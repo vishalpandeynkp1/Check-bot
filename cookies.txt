@@ -1,16 +1,24 @@
-#Apna cookies dalo bhai 🙁
-#Apna cookies dalo bhai 🙁
-#Apna cookies dalo bhai 🙁
-#Apna cookies dalo bhai 🙁
-#Apna cookies dalo bhai 🙁
-#Apna cookies dalo bhai 🙁
-#Apna cookies dalo bhai 🙁
-#Apna cookies dalo bhai 🙁
-#Apna cookies dalo bhai 🙁
-#Apna cookies dalo bhai 🙁
-#Apna cookies dalo bhai 🙁
-#Apna cookies dalo bhai 🙁
-#Apna cookies dalo bhai 🙁
-#Apna cookies dalo bhai 🙁
-#Apna cookies dalo bhai 🙁
-#Apna cookies dalo bhai 🙁
+# Netscape HTTP Cookie File
+# http://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.youtube.com	TRUE	/	FALSE	1771032659	HSID	AXNhzv1kreYy4uA9A
+.youtube.com	TRUE	/	TRUE	1771032659	SSID	AJasbgAxBR7pMpno2
+.youtube.com	TRUE	/	FALSE	1771032659	APISID	MwhfvdvVYHHaBAf5/AFh7gocI4d4zyEGH3
+.youtube.com	TRUE	/	TRUE	1771032659	SAPISID	Ker1sN7eVl_o68ht/AP3qFuKrBd8WxGF7U
+.youtube.com	TRUE	/	TRUE	1771032659	__Secure-1PAPISID	Ker1sN7eVl_o68ht/AP3qFuKrBd8WxGF7U
+.youtube.com	TRUE	/	TRUE	1771032659	__Secure-3PAPISID	Ker1sN7eVl_o68ht/AP3qFuKrBd8WxGF7U
+.youtube.com	TRUE	/	TRUE	1771032659	LOGIN_INFO	AFmmF2swRAIgJjF7frRWtNABFKJ0ewJhyWaiq0MN7ycgEpAoJ1baiKQCIF5r5c_Iuspwc5ppqB_pkeH3iF635UJb_Gtw5BRQaWFx:QUQ3MjNmelBrekgzaG5VUkx2bFhNMzlUc3RZUDRHMk5MUVJvYkhGYXllaUlBUWhSc2FaVmo2SGZPbWUtNFR6cXprSldtOEVwaHJsRjVOa2dKcjVwc01KVmRKcHJkVmlsS2Q4T2U3Y2l0cUJoRmhzR0stZUxfYUJJcFQ1Z0V1ckFkMXVMZmZjZWdDWGFyUV9WMVJxMk1uNGs2bURyVmZzaEJB
+.youtube.com	TRUE	/	FALSE	1771032659	SID	g.a000sQja5Fo-Y8wNEFwnKsUp-yLh22KJ8IPY_e1Lw_oa3E4ZHtpjTLUb6xb6SFFyYKV5OiD0EwACgYKAeISARESFQHGX2Mij54wtdZALJd4iiA4uD6AyRoVAUF8yKpGrHIpmgMr51joeN7vkGoi0076
+.youtube.com	TRUE	/	TRUE	1771032659	__Secure-1PSID	g.a000sQja5Fo-Y8wNEFwnKsUp-yLh22KJ8IPY_e1Lw_oa3E4ZHtpjgc1eCXOIcl-XKhx8AxZGQQACgYKAY4SARESFQHGX2MiUm2SMlWHeFyLg6SEjGaHMhoVAUF8yKpoA1oKHV7cIAaLOZ_5-BaN0076
+.youtube.com	TRUE	/	TRUE	1771032659	__Secure-3PSID	g.a000sQja5Fo-Y8wNEFwnKsUp-yLh22KJ8IPY_e1Lw_oa3E4ZHtpjEy8_0AcV9FUnAdoLo4w2DAACgYKAVQSARESFQHGX2MiitLcZHllSoTCw61KJaPhAxoVAUF8yKq7NWNp2YZgSM3F0ynFWtP-0076
+.youtube.com	TRUE	/	TRUE	1771032667	PREF	f4=4000000&tz=Asia.Calcutta
+.youtube.com	TRUE	/	TRUE	1770600658	__Secure-YEC	CgtrU3pxUno3MldKUSjc8IG8BjIiCgJOTBIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgIw%3D%3D
+.youtube.com	TRUE	/	TRUE	1768008671	__Secure-1PSIDTS	sidts-CjEB7wV3sTi5U9xWTIueKL11vpc-xzb0rElRq7QL5rRT_VD6Gj5_PIoYckziXxFjb7s_EAA
+.youtube.com	TRUE	/	TRUE	1768008671	__Secure-3PSIDTS	sidts-CjEB7wV3sTi5U9xWTIueKL11vpc-xzb0rElRq7QL5rRT_VD6Gj5_PIoYckziXxFjb7s_EAA
+.youtube.com	TRUE	/	FALSE	1768009024	SIDCC	AKEyXzUayOzOgdCQ28UOsJWI6PKuEjGbJBxxfgecKsM5R1PW5Dx0kVa_P0bdSSxEad6sxtvd4w
+.youtube.com	TRUE	/	TRUE	1768009024	__Secure-1PSIDCC	AKEyXzUEEM13C7yhjXPT8ixwk0nAjVIvKRh2Ml_qhYScTnvVzM7TnNeckdLyU9FG4cik-fjyAA
+.youtube.com	TRUE	/	TRUE	1768009024	__Secure-3PSIDCC	AKEyXzWU10gWLTDpWQYG_Xmqr8JqCSgxKKJPVZXGdXlKMJpTgaXhSOHDq7LzGNBIF0paAyvoeQ
+.youtube.com	TRUE	/	TRUE	0	YSC	5EVc64YEc-U
+.youtube.com	TRUE	/	TRUE	1752024659	__Secure-ROLLOUT_TOKEN	CLiigvfox9iBdRC3l4begOqKAxi3l4begOqKAw%3D%3D
+.youtube.com	TRUE	/	TRUE	1770600669	VISITOR_PRIVACY_METADATA	CgJOTBIcEhgSFhMLFBUWFwwYGRobHB0eHw4PIBAREiEgIw%3D%3D
