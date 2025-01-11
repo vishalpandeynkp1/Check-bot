@@ -6,19 +6,19 @@
 </div>
 
 <p align="center">
-    <a href="https://github.com/BABY-MUSIC/SANATANI_MxPLAYER">
+    <a href="https://github.com/vishalpandeynkp1/Check-bot">
         <img src="https://img.shields.io/github/stars/BABY-MUSIC/SANATANI_MxPLAYER?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Stars" />
     </a>
-    <a href="https://github.com/BABY-MUSIC/SANATANI_MxPLAYER/network/members">
+    <a href="https://github.com/vishalpandeynkp1/Check-bot/network/members">
         <img src="https://img.shields.io/github/forks/BABY-MUSIC/SANATANI_MxPLAYER?color=black&logo=github&logoColor=black&style=for-the-badge" alt="Forks" />
     </a>
-    <a href="https://github.com/BABY-MUSIC/SANATANI_MxPLAYER/blob/master/LICENSE">
+    <a href="https://github.com/vishalpandeynkp1/Check-bot/blob/master/LICENSE">
         <img src="https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge" alt="License" />
     </a>
     <a href="https://www.python.org/">
         <img src="https://img.shields.io/badge/Written%20in-Python-orange?style=for-the-badge&logo=python" alt="Python" />
     </a>
-    <a href="https://github.com/BABY-MUSIC/SANATANI_MxPLAYER/commits/BABY-MUSIC">
+    <a href="https://github.com/vishalpandeynkp1/Check-bot">
         <img src="https://img.shields.io/github/last-commit/BABY-MUSIC/SANATANI_MxPLAYER?color=blue&logo=github&logoColor=green&style=for-the-badge" alt="Last Commit" />
     </a>
 </p>
@@ -30,7 +30,7 @@
 <details>
   <summary>Click here to heruko</summary>
   <br>
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/BABY-MUSIC/SANATANI_MxPLAYER">
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/vishalpandeynkp1/Check-bot">
       <img src="https://img.shields.io/badge/Deploy_to_Heroku-red?style=for-the-badge&logo=heroku&logoColor=green" alt="Deploy to Heroku">
   </a>
 </details>
