@@ -392,7 +392,7 @@ HELP_C = """```
 
 ᴀʟʟ ᴛʜᴇ ғᴇᴀᴛᴜʀᴇs ᴀʀᴇ ᴡᴏʀᴋɪɴɢ ғɪɴᴇ
 
-⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/BABY09_WORLD)**"""
+⌬ ᴍᴏʀᴇ ɪɴғᴏ. [ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ](https://t.me/NOBITA_ALL_BOT)**"""
 
 HELP_X = """```
     【◖ 𝓝𝓸𝓫𝓲𝓽𝓪 ◗ 】 🚩 ᴍᴇɴᴜ```
@@ -458,7 +458,7 @@ async def start_message_private(client, message):
 │**❍ ɪ ᴀᴍ 【◖ 𝓝𝓸𝓫𝓲𝓽𝓪 ◗ 】 🚩 •**
 ├───────────────────▣**
 │**❍ ʙᴇsᴛ ǫᴜɪʟɪᴛʏ ғᴇᴀᴛᴜʀᴇs •**
-│**❍ ᴍᴀᴅᴇ ʙʏ...[𝓝𝓸𝓫𝓲𝓽𝓪](https://t.me/NOBITA_ALL_BOT) •**
+│**❍ ᴍᴀᴅᴇ ʙʏ...[𝓝𝓸𝓫𝓲𝓽𝓪](https://t.me/ll_NOBITA_BOT_DEVLOPER_ll) •**
 ╰───────────────────▣"""
 
         buttons = InlineKeyboardMarkup(
